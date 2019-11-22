@@ -1,0 +1,324 @@
+
+/******************************
+CSS Reset codes Starts
+******************************
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+sup{
+	vertical-align: text-top;
+	top: 8px !important;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+a{
+	text-decoration: none !important;
+}
+/*
+******************************
+CSS Reset codes Ends
+******************************
+*/
+
+@font-face {
+   font-family: 'Myriad Pro';
+   src: url("../fonts/Myriad_Pro_Regular.ttf");
+}
+@font-face {
+   font-family: 'Myanmar';
+   src: url("../fonts/mmrtext.ttf");
+}
+
+
+
+
+/*header style starts*/
+#header{
+	background-color: #000;
+	padding: 20px 0;
+}
+
+
+.social-links ul{
+	text-align: right;
+	margin-top: 40px;
+}
+.social-links ul li{
+	padding-right: 2px;
+	padding-left: 2px;
+}
+/*header style ends*/
+
+
+/*menu starts*/
+#menu{
+	background-color: #000;
+	border-top: 1px solid #fff;
+	border-bottom: 1px solid #fff;
+	padding-top: 15px 
+}
+
+
+/*for centering the menu*/
+.navbar-default .navbar-collapse, .navbar-default .navbar-form {
+    border-color: #fff;
+    text-align: center;
+}
+.navbar-nav {
+    float: none;
+    margin: 0;
+    display: inline-block;
+}
+/*for centering the menu*/
+
+.navbar-default .navbar-nav > li > a,.navbar-default .navbar-nav > li > a:hover,.navbar-default .navbar-nav > li > a:focus {
+    color: #fff;
+    text-transform: capitalize;
+    font-family: 'Myanmar';
+    font-size: 20px;
+    letter-spacing: 1px;
+}
+.navbar-default {
+    background-color: transparent;
+    border-color: transparent;
+    border: 0px;
+    margin-bottom: 0px;
+}
+
+.navbar-nav > li {
+    padding: 0 30px;
+}
+
+.navbar-nav > li:first-child {
+	padding-left: 0px;
+}
+.navbar-nav > li:last-child {
+	padding-right: 0px;
+}
+
+/*menu ends*/
+
+/*slider starts*/
+#slider>.container>.row>.col-sm-10{
+	float: none;
+	margin: 0 auto;
+}
+#slider{
+	background-color: #000;
+}
+#slider .item{
+	position: relative;
+}
+#slider .item p{
+	color: #fff;
+	width: 80%;
+	font-weight: bold;
+	letter-spacing: 1px;
+	font-family: 'Myriad Pro';
+	text-transform: uppercase;
+	font-size: 22px;
+	position: absolute;
+	bottom: 7%;
+	left: 50%;
+	transform: translate(-50%);
+	letter-spacing: 1px;
+}
+#slider .item img{
+    display: block;
+    width: 100%;
+    height: auto;
+}
+.owl-pagination{
+	display: none;
+}
+.owl-theme .owl-controls .owl-buttons div {
+    color: #fff;
+    text-align: center;
+    display: inline-block;
+    zoom: 1;
+    margin: 0px;
+    padding: 3px 18px;
+    font-size: 60px;
+    opacity: 1;
+    background-color: rgba(0,0,0,0.4);
+    -webkit-border-radius: 0px;
+    -moz-border-radius: 0px;
+    border-radius: 0px;
+
+ 
+}
+.owl-buttons{
+	position: absolute;
+	width: 100%;
+	top: 50%;
+}
+.owl-theme .owl-controls .owl-buttons div.owl-prev {
+	position: absolute;
+	left: 0%;
+	bottom: 70%
+}
+.owl-theme .owl-controls .owl-buttons div.owl-next {
+	position: absolute;
+	right: 0%;
+	bottom: 70%
+}
+
+
+/*slider ends*/
+
+
+/*bottom logo starts*/
+#bottom-logo-background{
+	background-color: #000;
+	padding: 40px 15px;
+	margin-top: -10px;
+	border-top: 1px solid #fff;
+	
+}
+.bottom-logo{
+	max-width: 500px;
+	margin: 0 auto;
+}
+.bottom-logo img{
+	width: 50%;
+}
+/*bottom logo ends*/
+
+
+/*bottom-menus starts*/
+
+#bottom-menu{
+	background-color: #000;
+	padding: 40px 15px;
+}
+
+.events{
+	text-align: center;
+}
+.links{
+	text-align: right;
+}
+
+#bottom-menu a{
+	color: #fff;
+	font-family: 'Myriad Pro';
+	font-size: 26px;
+	display: block;
+}
+#bottom-menu .col-xs-4 a span:first-child img{
+	
+}
+#bottom-menu .col-xs-4 a span:first-child{
+	overflow: hidden;
+}
+#bottom-menu .col-xs-4 a span:last-child{
+	padding-left: 15px;
+}
+
+/*bottom-menus ends*/
+
+
+/*links starts*/
+#links{
+	background-color: #000;
+	padding: 50px 0;
+	font-family: 'Myriad Pro';
+}
+
+.links-parts{
+	border-right: 1px solid #fff;
+}
+.bottom-social-links{
+	border-right: 0px solid #fff;
+}
+.links-parts h1{
+	font-size: 18px;
+	color: #fff;
+	margin-bottom: 10px;
+}
+.links-parts p{
+	font-size: 18px;
+	line-height: 140%;
+	margin: 5px 0;
+}
+.links-parts p a{
+	color: #e7bc60; 
+}
+.bottom-social-links ul{
+	padding-top: 30px;
+	
+}
+.bottom-social-links ul li{
+	padding: 0 2px;
+	margin-top: 10px;
+}
+.bottom-social-links ul li a{
+	background-color: #333333;
+	color: #fff;
+	padding: 10px;
+	font-size: 15px;
+	display: block;
+}
+.facebook a{
+	padding:10px 12px !important;
+}
+/*links ends*/
+
+
+/*footer starts*/
+#footer{
+	background-color: #000;
+	padding: 60px 0 100px 0;
+}
+#footer p{
+	font-size: 12px;
+	color: #fff;
+	font-family: 'Myriad Pro';
+	line-height: 130%;
+	margin-bottom: 15px;
+
+}
+#footer p a,#footer p a:hover{
+	color: #fff;
+}
+/*footer ends*/

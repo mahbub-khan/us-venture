@@ -1,0 +1,174 @@
+/*top section starts*/
+@media screen and (max-width:1199px) and (min-width: 992px){
+.social-links ul{
+	margin-top: 30px;
+}
+
+}
+@media screen and (max-width:991px) and (min-width: 768px){
+
+.social-links ul{
+	margin-top: 40px;
+}
+
+}
+@media screen and (max-width:767px){
+
+.social-links ul{
+	margin-top: 5px;
+	text-align: center;
+}
+.social-links ul li{
+	margin-top: 10px;
+}
+.logo img{
+	width: 35%;
+	margin: 0 auto;
+}
+
+}
+/*top section ends*/
+
+
+/*menu starts*/
+
+@media screen and (max-width:991px) and (min-width: 768px){
+.navbar-nav > li {
+    padding: 0 20px;
+}
+
+}
+
+
+@media screen and (max-width:767px){
+
+	.navbar-default .navbar-nav > li > a,.navbar-default .navbar-nav > li > a:hover,.navbar-default .navbar-nav > li > a:focus {
+    font-size: 16px;
+}
+.navbar-nav > li {
+    padding:0 0 10px 0;
+}
+
+.navbar-nav > li:first-child {
+    padding:10px 0 0px 0;
+}
+
+#menu{
+
+	padding:10px 0;
+}
+.navbar-default .navbar-toggle,.navbar-default .navbar-toggle:hover,.navbar-default .navbar-toggle:focus{
+	background-color: transparent;
+    border-color: #fff;
+    border-radius: 0;
+}
+
+.navbar-default .navbar-toggle .icon-bar {
+    background-color: #fff;
+}
+
+
+
+}
+
+/*menu ends*/
+
+
+/*slider starts*/
+
+
+@media screen and (max-width:767px){
+
+	#slider>.container>.row>.col-sm-10{
+	padding-right: 0px;
+	padding-left: 0px;
+	}
+	#bottom-logo-background{
+		border-top: 0px solid #fff;
+	
+	}
+	#slider .item p{
+		font-size: 18px;	
+	}
+
+.owl-theme .owl-controls .owl-buttons div {
+	font-size: 30px;
+
+    padding: 3px 10px;
+	}
+}
+/*slider ends*/
+
+
+/*links starts*/
+
+@media screen and (max-width:991px) and (min-width: 768px){
+
+	.links{
+		padding-right: 20px;
+	}
+
+.bottom-social-links ul li{
+	padding: 0;
+	margin-top: 10px;
+}
+.bottom-social-links ul li a{
+	background-color: #333333;
+	color: #fff;
+	padding: 8px;
+	font-size: 12px;
+	display: block;
+}
+.facebook a{
+	padding:8px 10px !important;
+}
+}
+
+
+
+@media screen and (max-width:767px){
+.links-parts{
+	border-right: 0px solid #fff;
+}
+.events,.links,.contact{
+	text-align: center;
+}
+
+#bottom-menu a{
+	font-size: 24px;
+}
+
+}
+
+@media screen and (max-width:575px){
+	#bottom-menu a{
+	font-size: 20px;
+}
+
+}
+@media screen and (max-width:490px){
+	#bottom-menu a{
+	font-size: 17px;
+}
+
+.events,.links,.contact{
+	text-align: center;
+}
+
+}
+/*links ends*/
+
+/*footer styles*/
+
+
+@media screen and (max-width:767px){
+#footer p{
+	color: #fff;
+	font-family: 'Myriad Pro';
+	line-height: 130%;
+	margin-bottom: 15px;
+	padding: 0 15px;
+	
+}
+
+}
